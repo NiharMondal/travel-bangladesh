@@ -1,0 +1,15 @@
+.hover_effect:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: .2s;
+}
+.hover_effect{
+  position: relative;
+
+}
+.hover_effect h5{
+  position: absolute;
+  bottom: 10px;
+  left: 39px;
+  
+}

@@ -1,0 +1,7 @@
+.google_login, .fb_login{
+  width: 50%;
+  margin: 5px auto;
+  border-radius: 39px;
+  padding: 5px;
+  border: 1px solid gray;
+}
