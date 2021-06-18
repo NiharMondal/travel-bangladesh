@@ -103,7 +103,9 @@ const Login = () => {
         setLoggedIn(signedInUser)
         history.replace(from)
       })
+    
   }
+  
   //facebook sign in
   const fbSignIn = () => {
     const fbProvider = new firebase.auth.FacebookAuthProvider();
