@@ -67,7 +67,7 @@ const Booking = () => {
                       className="date-picker"
                       onChange={date => setFrom(date)}
                       required
-                      placeholderText="Peek a date" />
+                      placeholderText="Select a date" />
                   </div>
                   <div>
                     <p>To</p>
@@ -75,7 +75,7 @@ const Booking = () => {
                       className="date-picker"
                       onChange={date => setTo(date)}
                       required
-                      placeholderText="Peek a date" />
+                      placeholderText="Select a date" />
                   </div>
                 </div>
                 <input type="submit" value="Start Booking" />

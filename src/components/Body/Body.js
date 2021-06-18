@@ -5,9 +5,10 @@ import { MyContext } from '../../App';
 import TravelSection from '../TravelSection/TravelSection';
 import locations from '../../fakeData/index'
 const Body = () => {
-  const [background] = useContext(MyContext)
+  const [background] = useContext(MyContext);
+  
   return (
-    <div style={{ color: 'white',marginTop: '100px' }}>
+    <div style={{ color: 'white',marginTop: '100px'}}>
       <Container>
         <Row>
           <Col sm={12} md={5}>

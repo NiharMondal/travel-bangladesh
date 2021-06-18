@@ -22,9 +22,7 @@ const locations = [
   },
 
 ]
-
 export default locations;
-
 export const hotelsInfo = [
   {
     id: 1,
@@ -52,7 +50,7 @@ export const hotelsInfo = [
   },
   {
     id: 3,
-    title: "AR Lounge and pool (r&r b&b)",
+    title: "AR Lounge and pool",
     star: 4.7,
     reviewed: 30,
     guest: 5,

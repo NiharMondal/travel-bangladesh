@@ -21,7 +21,6 @@ const TravelSection = ({ data }) => {
         <Card.Img className="img-fluid" variant="top" src={image} />
         <h5 style={{ color: 'white'}}>{ placeName}</h5>
       </Card>
-
     </Grid>
    
   );

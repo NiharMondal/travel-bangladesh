@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <div style={appStyle}>
-      <Header />
+      <Header/>
       <Body/>
      
     </div>
